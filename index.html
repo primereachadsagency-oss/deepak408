@@ -1,212 +1,690 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>ElitePips — Free Forex Signals</title>
-<meta name="description" content="Answer a quick question to access our free Forex trading resources and signals. Educational content only."/>
-<meta name="theme-color" content="#001022">
+<meta charset="UTF-8">
+<title>Deepak Wadhwa Official | Join 50,000+ Elite Members</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Join Deepak Wadhwa's exclusive Telegram community. 50,000+ members. Daily premium market insights, learning resources & active discussions. 100% Free.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Deepak Wadhwa Official | Premium Community">
+<meta property="og:description" content="Join 50,000+ members getting daily premium insights. 100% Free.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 
-<!-- Meta Pixel (kept) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg-deep: #000000;
+  --bg-card: #0a0a0a;
+  --bg-card-hover: #111111;
+  --accent: #00ff94; /* Neon Mint */
+  --accent-dim: rgba(0, 255, 148, 0.1);
+  --accent-glow: rgba(0, 255, 148, 0.4);
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+  --text-muted: #52525b;
+  --border-subtle: rgba(255,255,255,0.08);
+  --border-accent: rgba(0, 255, 148, 0.3);
+  --warning: #f59e0b;
+  --danger: #ef4444;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; }
+
+body {
+  min-height: 100vh;
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  position: relative;
+  padding: 20px 16px 120px;
+  font-family: "Inter", sans-serif;
+}
+
+/* ===== Ambient Background ===== */
+.bg-glow {
+  position: fixed;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0,255,148,0.08) 0%, transparent 60%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.container {
+  position: relative;
+  z-index: 10;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ===== Header / Profile ===== */
+.header-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 24px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.header-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+}
+
+.profile-img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #000;
+  padding: 3px;
+  position: relative;
+}
+.profile-img::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, var(--accent), transparent 60%, var(--accent));
+  z-index: -1;
+  animation: spin 4s linear infinite;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+.badge-check {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 28px;
+  height: 28px;
+  background: var(--accent);
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid var(--bg-card);
+}
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+h1 span {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.desc {
+  font-size: 15px;
+  color: var(--text-secondary);
+  text-align: center;
+  max-width: 400px;
+  line-height: 1.5;
+}
+
+/* ===== Bento Grid ===== */
+.bento-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-accent);
+}
+
+/* Urgency Card */
+.card-urgency {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(239,68,68,0.05), rgba(245,158,11,0.05));
+  border: 1px solid rgba(245,158,11,0.2);
+}
+.urgency-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #fcd34d;
+}
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--danger);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--danger);
+  animation: pulse 1.5s infinite;
+}
+.timer-box {
+  display: flex;
+  gap: 6px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+.timer-unit {
+  background: rgba(0,0,0,0.5);
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* CTA Card */
+.card-cta {
+  padding: 24px;
+  text-align: center;
+}
+.cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 18px;
+  background: var(--accent);
+  color: #000;
+  text-decoration: none;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 14px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 30px var(--accent-glow);
+}
+.cta-btn:active { transform: scale(0.98); }
+.cta-subtext {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* Live Status Card */
+.card-live {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.live-status {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.live-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--accent-dim);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+}
+.live-text h3 { font-size: 16px; font-family: 'Space Grotesk'; }
+.live-text p { font-size: 12px; color: var(--text-secondary); }
+.live-count {
+  font-family: 'Space Grotesk';
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Features List Card */
+.card-features {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.f-icon {
+  width: 44px;
+  height: 44px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.f-text h3 { font-size: 15px; font-family: 'Space Grotesk'; margin-bottom: 2px; }
+.f-text p { font-size: 13px; color: var(--text-muted); }
+
+/* Testimonial & Stats Row */
+.card-testimonial {
+  border-left: 3px solid var(--accent);
+}
+.quote {
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 12px;
+}
+.quote-author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+.stars { color: var(--warning); letter-spacing: 2px; }
+.author-name { font-weight: 600; color: #fff; }
+.author-role { color: var(--text-muted); }
+
+/* Action Row */
+.action-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.action-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  padding: 14px;
+  border-radius: 14px;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-family: 'Space Grotesk';
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.action-btn:hover {
+  border-color: var(--border-accent);
+  color: var(--accent);
+}
+.action-btn.copied {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Sticky Mobile CTA */
+.sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid var(--border-subtle);
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+.sticky-cta.visible { transform: translateY(0); }
+.sticky-cta a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+  background: var(--accent);
+  color: #000;
+  text-decoration: none;
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 14px;
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* Toast */
+.toast-container {
+  position: fixed;
+  bottom: 90px;
+  left: 16px;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: none;
+}
+.toast {
+  background: #111;
+  border: 1px solid var(--border-accent);
+  border-radius: 12px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  animation: slideIn 0.5s ease, slideOut 0.5s ease 4s forwards;
+}
+.toast .avatar {
+  width: 28px; height: 28px; border-radius: 50%; background: var(--accent);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; color: #000; font-size: 12px;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+@keyframes slideIn { from { opacity: 0; transform: translateX(-100%); } to { opacity: 1; transform: translateX(0); } }
+@keyframes slideOut { to { opacity: 0; transform: translateX(-100%); } }
+
+/* ===== DESKTOP LAYOUT ===== */
+@media (min-width: 768px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-cta { grid-column: span 2; }
+  .card-live { grid-column: span 2; }
+  .card-features { grid-column: span 2; }
+  .action-row { grid-column: span 2; }
+  
+  .header-card { padding: 48px 24px; }
+  h1 { font-size: 40px; }
+  .desc { font-size: 17px; }
+  .profile-img { width: 120px; height: 120px; }
+  
+  .sticky-cta { display: none; }
+  body { padding-bottom: 40px; }
+}
+</style>
+
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1593721464926438');
+fbq('init', '1761622978597945');
 fbq('track', 'PageView');
 </script>
-
-<style>
-:root{
-  --accent1:#ff7a00;
-  --accent2:#ff4d00;
-  --text:#e6eefb;
-  --muted:#bfcfe6;
-  --card-bg:rgba(6,8,15,0.92);
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%}
-body{
-  background:linear-gradient(160deg,#001022,#002a4a);
-  display:flex;align-items:center;justify-content:center;
-  padding:18px;color:var(--text);
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
-}
-.container{
-  width:100%;max-width:640px;
-  background:var(--card-bg);
-  border-radius:14px;padding:20px;
-  box-shadow:0 24px 60px rgba(0,10,30,0.6);
-  position:relative;overflow:hidden;color:var(--text);
-}
-.progressWrap{display:flex;align-items:center;gap:10px;margin-bottom:14px}
-.progress{flex:1;height:9px;background:rgba(255,255,255,0.03);border-radius:999px;overflow:hidden}
-.progress>i{display:block;height:100%;background:linear-gradient(90deg,var(--accent1),var(--accent2));width:0;transition:width .45s ease}
-.progressNum{min-width:44px;text-align:right;color:var();font-weight:700;font-size:13px}
-.question{animation:fadeIn .32s ease;text-align:center;margin-bottom:14px}
-@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
-.hype{
-  display:inline-block;padding:10px 14px;border-radius:12px;font-weight:900;font-size:20px;
-  background:linear-gradient(90deg,#ffd9b3,#ffb48a);color:#1b0520;
-  box-shadow:0 8px 30px rgba(255,120,0,0.12);
-}
-.hype.small{font-size:16px;padding:8px 12px}
-.pulse{animation:pulse 1.6s infinite}
-@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.03)}100%{transform:scale(1)}}
-.options{display:flex;flex-direction:column;gap:10px;margin-top:12px}
-.option{
-  background:rgba(255,255,255,0.02);
-  border-radius:12px;padding:12px 14px;cursor:pointer;font-weight:800;text-align:center;
-  border:1px solid rgba(255,255,255,0.04);
-  box-shadow:0 8px 30px rgba(0,0,0,0.5);
-  transition:transform .16s,box-shadow .16s,background .16s;
-}
-.option:hover{transform:translateY(-6px);box-shadow:0 18px 46px rgba(255,90,0,0.12);background:linear-gradient(90deg,rgba(255,90,0,0.08),rgba(255,150,0,0.06));}
-.option.selected{background:linear-gradient(90deg,rgba(255,120,0,0.18),rgba(255,60,0,0.12));color:#fff;transform:translateY(-8px)}
-.thankyou{text-align:center;padding:6px}
-.thank-h{font-size:20px;margin:6px 0;font-weight:900}
-.thank-sub{color:var();margin-bottom:12px}
-.join-btn{
-  display:inline-block;position:relative;overflow:hidden;
-  background:linear-gradient(90deg,#ff7a00,#ff4d00);
-  color:#fff;padding:12px 18px;border-radius:12px;font-weight:900;text-decoration:none;
-  box-shadow:0 14px 40px rgba(255,90,0,0.18);
-}
-.join-btn::after{content:'';position:absolute;left:-50%;top:0;width:40%;height:100%;background:linear-gradient(120deg,rgba(255,255,255,0)0%,rgba(255,255,255,0.14)50%,rgba(255,255,255,0)100%);transform:skewX(-20deg);filter:blur(6px);animation:shine 3.4s linear infinite}
-@keyframes shine{0%{left:-60%}100%{left:120%}}
-.fomo{background:linear-gradient(90deg,#ffe6d6,#ffd0b3);color:#2b0a00;padding:8px 12px;border-radius:10px;font-weight:800;display:inline-block;margin:10px 0;font-size:13px}
-.small{font-size:13px;color:var();margin-top:8px}
-.row{display:flex;gap:10px;justify-content:center;margin-top:12px}
-.btn-ghost{padding:10px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--text);font-weight:700;text-decoration:none;cursor:pointer}
-.note{font-size:12px;color:var(--muted);margin-top:10px}
-@media (max-width:520px){.container{padding:14px}.hype{font-size:18px}}
-</style>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1761622978597945&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
-
 <body>
-<main class="container" id="card">
-  <div class="progressWrap">
-    <div class="progress"><i id="bar"></i></div>
-    <div class="progressNum" id="progNum">0%</div>
+
+<div class="bg-glow"></div>
+
+<div class="container">
+
+  <!-- Profile Header -->
+  <div class="header-card">
+    <div class="profile-img">
+      <img src="https://ads.adzinox.com/wp-content/uploads/2026/02/photo_2026-02-09-11.26.04.jpeg" alt="Deepak Wadhwa">
+      <div class="badge-check">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      </div>
+    </div>
+    <h1>Deepak Wadhwa<span>Official Community</span></h1>
+    <p class="desc">Join an exclusive ecosystem of 50,000+ members getting daily premium market insights and wealth-building resources.</p>
   </div>
 
-  <div id="q-box">
-    <!-- Single question will be rendered here -->
+  <div class="bento-grid">
+    
+    <!-- Urgency Timer -->
+    <div class="card card-urgency">
+      <div class="urgency-left">
+        <span class="pulse-dot"></span>
+        <span>Limited Free Access</span>
+      </div>
+      <div class="timer-box">
+        <span class="timer-unit" id="hours">04</span>
+        <span class="timer-unit" id="minutes">59</span>
+        <span class="timer-unit" id="seconds">59</span>
+      </div>
+    </div>
+
+    <!-- Main CTA -->
+    <div class="card card-cta">
+      <a href="https://t.me/+PgWmv_l6SNZhOWQ1" target="_blank" rel="noopener" onclick="trackSubscribe('main')" class="cta-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.324-.437.891-.663 3.498-1.524 5.83-2.529 6.997-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        Join Free Telegram Channel
+      </a>
+      <div class="cta-subtext">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+        Instant access • No spam • 100% Free Forever
+      </div>
+    </div>
+
+    <!-- Live Count -->
+    <div class="card card-live">
+      <div class="live-status">
+        <div class="live-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <div class="live-text">
+          <h3>Active Now</h3>
+          <p>People viewing this page</p>
+        </div>
+      </div>
+      <div class="live-count" id="liveCount">412</div>
+    </div>
+
+    <!-- Features -->
+    <div class="card card-features">
+      <div class="feature-item">
+        <div class="f-icon">📈</div>
+        <div class="f-text">
+          <h3>Daily Market Insights</h3>
+          <p>Fresh, high-value analysis delivered every single day.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="f-icon">🧠</div>
+        <div class="f-text">
+          <h3>Exclusive Learning</h3>
+          <p>Premium material to accelerate your financial growth.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="f-icon">🤝</div>
+        <div class="f-text">
+          <h3>Active Network</h3>
+          <p>Connect with thousands of like-minded professionals.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="card card-testimonial">
+      <p class="quote">"The daily insights here are absolute gold. Best free financial community I've ever been part of. Highly recommended!"</p>
+      <div class="quote-author">
+        <span class="stars">★★★★★</span>
+        <span class="author-name">Rahul M.</span>
+        <span class="author-role">• Premium Member</span>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="action-row">
+      <a href="tg://join?invite=PgWmv_l6SNZhOWQ1" onclick="trackSubscribe('app')" class="action-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Open App
+      </a>
+      <button class="action-btn" id="copyBtn" onclick="copyLink()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        <span id="copyText">Copy Link</span>
+      </button>
+    </div>
+
   </div>
-</main>
+</div>
+
+<!-- Sticky Mobile CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <a href="https://t.me/+PgWmv_l6SNZhOWQ1" target="_blank" rel="noopener" onclick="trackSubscribe('sticky')">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.324-.437.891-.663 3.498-1.524 5.83-2.529 6.997-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+    Join Free Now
+  </a>
+</div>
+
+<!-- Toast Container -->
+<div class="toast-container" id="toastContainer"></div>
 
 <script>
-/* ---------- CONFIG ---------- */
-const telegramLink = "https://telegram.me/+ZVpxPGfP6LFiZDFl"; // updated link
-/* ---------- STATE ---------- */
-let answered = false;
-const qBox = document.getElementById('q-box'), bar = document.getElementById('bar'), progNum = document.getElementById('progNum');
+var TG_WEB = "https://t.me/+PgWmv_l6SNZhOWQ1";
 
-/* ---------- RENDER ---------- */
-function renderSingleQuestion(){
-  qBox.innerHTML = `
-    <div class="question">
-      <div class="hype pulse">🔥 Live Forex set-ups — join our learning community</div>
-      <div style="height:8px"></div>
-      <div class="options">
-        <div class="option" data-val="yes">Yes — I want access to signals & learning</div>
-        <div class="option" data-val="no">Not right now — show me resources</div>
-      </div>
-      <div class="small">Takes one tap. We share educational trade ideas only — not financial advice.</div>
-    </div>
-  `;
-  updateProgress(0);
-  document.querySelectorAll('.option').forEach(o=>o.addEventListener('click', onChooseSingle));
-}
-
-function updateProgress(pct){
-  bar.style.width = pct + "%";
-  progNum.textContent = pct + "%";
-}
-
-/* ---------- PIXEL TRACKING WRAPPER ---------- */
-function sendSubscribe(eventName, payload){
-  try{ fbq('track', eventName, payload || {}); }catch(e){}
-  // optionally send to your server for verification:
-  // navigator.sendBeacon('/api/track', JSON.stringify({event:eventName, payload}));
-}
-
-/* ---------- BASIC CLIENT BOT CHECK ----------
-   This is a lightweight check: requires a human click on "Proceed"
-   Replace/upgrade with Cloudflare Turnstile / hCaptcha for stronger protection.
--------------------------------------------*/
-function onChooseSingle(ev){
-  if(answered) return;
-  answered = true;
-  const el = ev.currentTarget;
-  const val = el.getAttribute('data-val');
-  document.querySelectorAll('.option').forEach(o=>o.classList.remove('selected'));
-  el.classList.add('selected');
-  setTimeout(()=>{ updateProgress(66); showConfirmFor(val); },220);
-}
-
-function showConfirmFor(val){
-  if(val === 'yes'){
-    qBox.innerHTML = `
-      <div class="thankyou">
-        <div class="hype small">You're almost there — quick confirm</div>
-        <div class="thank-sub">We keep the group focused on learning and real setups. Educational content only.</div>
-        <div><span class="fomo">⚡ Limited interactive spots — priority given to active learners</span></div>
-        <div class="row" style="margin-top:14px">
-          <button id="proceedBtn" class="join-btn">Proceed to Telegram →</button>
-        </div>
-        <div class="note">By proceeding you confirm you want educational trade setups. Not financial advice.</div>
-      </div>
-    `;
-    updateProgress(85);
-    sendSubscribe('Subscribe', {interested: 'yes', step: 'confirm_shown'});
-    setTimeout(()=>{ const pb = document.getElementById('proceedBtn'); if(pb) pb.addEventListener('click', onProceedClickYes); },80);
-  } else {
-    qBox.innerHTML = `
-      <div class="thankyou">
-        <div class="hype small">No problem — check our free resources</div>
-        <div class="thank-sub">We share guides, sample setups and educational posts in the resource page.</div>
-        <div class="row">
-          <button id="backBtn" class="btn-ghost">Back</button>
-          <a id="learnBtn" class="join-btn" href="${telegramLink}" target="_blank" rel="noopener">See Resources →</a>
-        </div>
-        <div class="note">You can always come back and request signals later.</div>
-      </div>
-    `;
-    updateProgress(100);
-    sendSubscribe('Subscribe', {interested: 'no'});
-    setTimeout(()=>{ const bb=document.getElementById('backBtn'); if(bb) bb.addEventListener('click', ()=>{ answered=false; renderSingleQuestion(); }); },50);
-    setTimeout(()=>{ const lb=document.getElementById('learnBtn'); if(lb) lb.addEventListener('click', ()=>sendSubscribe('LearnClick',{interested:'no'})); },50);
+function trackSubscribe(placement) {
+  if (typeof fbq === "function") {
+    fbq("track", "Lead", { placement: placement || "unknown" });
+    fbq("track", "Subscribe", { placement: placement || "unknown" });
   }
 }
 
-function onProceedClickYes(){
-  // Instead of direct join, open the server-side redirect which logs clicks.
-  sendSubscribe('ProceedClick', {interested:'yes'});
-  const win = window.open('/go/redirect.html?to=telegram', '_blank', 'noopener');
-  if(!win){ window.location.href = '/go/redirect.html?to=telegram'; }
-  qBox.innerHTML = `
-    <div class="thankyou">
-      <div class="hype small">Done — check your Telegram</div>
-      <div class="thank-sub">If Telegram didn't open, tap the button again.</div>
-      <div class="row" style="margin-top:12px">
-        <a class="join-btn" href="/go/redirect.html?to=telegram" target="_blank" rel="noopener">Open Telegram →</a>
-      </div>
-      <div class="note">Educational content only. No guarantees of profit.</div>
-    </div>
-  `;
-  updateProgress(100);
+function copyLink() { 
+  doCopy(TG_WEB, document.getElementById("copyBtn")); 
 }
 
-/* ---------- INITIAL ---------- */
-renderSingleQuestion();
+function doCopy(text, btn) {
+  var textEl = document.getElementById("copyText");
+  var done = function() {
+    btn.classList.add("copied");
+    textEl.textContent = "Copied!";
+    setTimeout(function() { 
+      btn.classList.remove("copied"); 
+      textEl.textContent = "Copy Link";
+    }, 2000);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done).catch(function() { fbCopy(text, btn, done); });
+  } else {
+    fbCopy(text, btn, done);
+  }
+}
+
+function fbCopy(text, btn, done) {
+  var t = document.createElement("textarea");
+  t.value = text;
+  t.style.cssText = "position:fixed;left:-9999px";
+  document.body.appendChild(t);
+  t.select();
+  try { document.execCommand("copy"); done(); } catch(e) { btn.textContent = "Failed"; }
+  document.body.removeChild(t);
+}
+
+/* Live viewer count fluctuation */
+var liveCountEl = document.getElementById("liveCount");
+var liveCount = 412;
+setInterval(function() {
+  var delta = Math.floor(Math.random() * 9) - 4;
+  liveCount = Math.max(350, Math.min(480, liveCount + delta));
+  liveCountEl.textContent = liveCount;
+}, 4000);
+
+/* Sticky CTA visibility */
+var stickyCta = document.getElementById("stickyCta");
+var mainCta = document.querySelector(".cta-btn");
+window.addEventListener("scroll", function() {
+  var rect = mainCta.getBoundingClientRect();
+  if (rect.bottom < 0) stickyCta.classList.add("visible");
+  else stickyCta.classList.remove("visible");
+});
+
+/* Toast notifications */
+var names = [
+  ["A", "Aarav", "Delhi"], ["P", "Priya", "Mumbai"], ["R", "Rahul", "Bangalore"],
+  ["S", "Sneha", "Pune"], ["V", "Vikram", "Hyderabad"], ["A", "Anjali", "Chennai"],
+  ["K", "Karan", "Jaipur"], ["M", "Meera", "Kolkata"], ["D", "Deepak", "Lucknow"]
+];
+
+function showToast() {
+  var n = names[Math.floor(Math.random() * names.length)];
+  var mins = Math.floor(Math.random() * 5) + 1;
+  var toast = document.createElement("div");
+  toast.className = "toast";
+  toast.innerHTML = 
+    '<div class="avatar">' + n[0] + '</div>' +
+    '<div><b>' + n[1] + '</b> from ' + n[2] + ' joined<br><span style="color:#52525b;font-size:10px">' + mins + ' min ago</span></div>';
+  document.getElementById("toastContainer").appendChild(toast);
+  setTimeout(function() { toast.remove(); }, 5000);
+}
+
+setTimeout(function() {
+  showToast();
+  setInterval(function() {
+    if (Math.random() > 0.3) showToast();
+  }, 8000);
+}, 3000);
+
+/* Countdown Timer */
+function startTimer() {
+  var h = 4, m = 59, s = 59;
+  var hEl = document.getElementById('hours');
+  var mEl = document.getElementById('minutes');
+  var sEl = document.getElementById('seconds');
+  
+  setInterval(function() {
+    s--;
+    if (s < 0) { s = 59; m--; }
+    if (m < 0) { m = 59; h--; }
+    if (h < 0) { h = 4; m = 59; s = 59; } 
+    
+    hEl.textContent = h < 10 ? '0' + h : h;
+    mEl.textContent = m < 10 ? '0' + m : m;
+    sEl.textContent = s < 10 ? '0' + s : s;
+  }, 1000);
+}
+startTimer();
 </script>
+
 </body>
 </html>
